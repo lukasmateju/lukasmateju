@@ -1,0 +1,53 @@
+name: Update profile
+
+on:
+  schedule:
+    - cron: "17 9 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Update daily section
+        run: |
+          python - <<'PY'
+          from datetime import datetime, timezone
+          from pathlib import Path
+          import re
+
+          readme = Path("README.md")
+          content = readme.read_text()
+
+          timestamp = datetime.now(timezone.utc).strftime(
+              "%B %d, %Y at %H:%M UTC"
+          )
+
+          replacement = f"""<!-- DAILY-UPDATE:START -->
+          _Last automated refresh: {timestamp}_
+          <!-- DAILY-UPDATE:END -->"""
+
+          updated = re.sub(
+              r"<!-- DAILY-UPDATE:START -->.*?<!-- DAILY-UPDATE:END -->",
+              replacement,
+              content,
+              flags=re.DOTALL,
+          )
+
+          readme.write_text(updated)
+          PY
+
+      - name: Commit update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "Update profile snapshot"
+          git push
