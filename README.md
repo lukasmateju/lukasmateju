@@ -1,48 +1,64 @@
-# Hi, I'm Lukas Mateju 👋
+<div align="center">
+
+# Lukas Mateju
+
+**Industrial Engineering × Computer Science**
+
+Operations research, aviation systems, and practical software.
+
+[Portfolio](https://lukasmateju.com) · [LinkedIn](https://www.linkedin.com/in/lukas-mateju/)
+
+</div>
+
+## About
+
+<!-- CONTENT: Review your degree, role, and one-sentence value proposition here. -->
 
 I'm an Industrial Engineering student with a Computer Science minor at the
 University of Michigan, currently working in aviation operations at American
-Airlines.
+Airlines. I enjoy building software that applies optimization, data analysis,
+and engineering methods to real operational problems.
 
-I enjoy building software that applies optimization, data analysis, and
-engineering methods to real operational problems.
+## Areas of focus
 
-## What I'm interested in
+| Optimization & operations research | Aviation & transportation | Software & data |
+| :--- | :--- | :--- |
+| Mathematical modeling | Scheduling and network design | Python and C++ |
+| Mixed-integer programming | Operational decision support | Data analysis and visualization |
 
-- Operations research and mathematical optimization
-- Aviation, transportation, and scheduling
-- Data analysis and visualization
-- Python and C++ development
-- Building practical software tools
+## Selected work
 
-## Featured projects
+<!-- CONTENT: Keep three or four projects here. Describe the problem and result, not only the technology. -->
 
-### [Airline Crew Assignment](https://github.com/lukasmateju/ioe410-crew-assignment)
+| Project | What it demonstrates | Primary tools |
+| :--- | :--- | :--- |
+| [Airline Crew Assignment](https://github.com/lukasmateju/ioe410-crew-assignment) | Optimization of airline crew assignments under operational constraints | Python, mathematical optimization |
+| [Metro Form](https://github.com/lukasmateju/metro-form) | Mixed-integer programming for designing transit networks | Python, operations research |
+| [Sudoku Solver](https://github.com/lukasmateju/sudoku-solver) | Multiple C++ solving algorithms, Python bindings, benchmarking, and visualization | C++, Python |
+| [Portfolio](https://lukasmateju.com) | A broader view of my experience, projects, and background | Astro, web development |
 
-An optimization project focused on assigning airline crews while satisfying
-operational constraints.
+## GitHub snapshot
 
-### [Metro Form](https://github.com/lukasmateju/metro-form)
+<!-- STATS:START -->
+| Public projects | Stars received | Most recently pushed | Generated |
+| ---: | ---: | :--- | :--- |
+| **6** | **0** | [ido-truck-scheduler](https://github.com/lukasmateju/ido-truck-scheduler) | August 2, 2026 |
+<!-- STATS:END -->
 
-A mixed-integer programming project for designing transit networks from
-scratch.
+## Current focus
 
-### [Sudoku Solver](https://github.com/lukasmateju/sudoku-solver)
+<!--
+CONTENT: Replace the three bracketed fields below before publishing this revision.
+Keep each answer to one concise sentence or phrase.
+-->
 
-A C++ Sudoku solver with multiple algorithms, Python bindings, benchmarking,
-CLI tools, and step-by-step visualization.
+- **Building:** [project, research question, or operational problem]
+- **Learning:** [technical skill, method, or subject]
+- **Open to:** [collaboration, research, internship, or other opportunity]
 
-### [Portfolio](https://lukasmateju.com)
+## Connect
 
-My experience, projects, and additional background.
-
-## Daily snapshot
-
-<!-- DAILY-UPDATE:START -->
-_Last automated refresh: August 02, 2026 at 18:05 UTC_
-<!-- DAILY-UPDATE:END -->
-
-## Connect with me
+<!-- CONTENT: Add only contact methods you actively monitor and are comfortable making public. -->
 
 - [Portfolio](https://lukasmateju.com)
 - [LinkedIn](https://www.linkedin.com/in/lukas-mateju/)
