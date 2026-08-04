@@ -42,7 +42,7 @@ and engineering methods to real operational problems.
 <!-- STATS:START -->
 | Public projects | Stars received | Most recently pushed | Generated |
 | ---: | ---: | :--- | :--- |
-| **7** | **0** | [CAST](https://github.com/lukasmateju/CAST) | August 3, 2026 |
+| **7** | **0** | [portfolio-v1](https://github.com/lukasmateju/portfolio-v1) | August 4, 2026 |
 <!-- STATS:END -->
 
 ## Current focus
