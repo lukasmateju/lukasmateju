@@ -42,7 +42,7 @@ and engineering methods to real operational problems.
 <!-- STATS:START -->
 | Public projects | Stars received | Most recently pushed | Generated |
 | ---: | ---: | :--- | :--- |
-| **7** | **0** | [ido-truck-scheduler](https://github.com/lukasmateju/ido-truck-scheduler) | August 6, 2026 |
+| **7** | **0** | [CAST](https://github.com/lukasmateju/CAST) | August 7, 2026 |
 <!-- STATS:END -->
 
 ## Current focus
